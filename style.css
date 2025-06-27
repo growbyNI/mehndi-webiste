@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("img1.jpg"); /* Replace with your real image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.Top-header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
+    position: fixed;
+    height: auto;
+    min-height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.top-heading {
+    font-size: 1.8rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #fff3f3;
+}
+
+.btn-top {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-top button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px 16px;
+    font-size: large;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn-top button:hover {
+    background-color: #ff00aa;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.btn-top button:hover {
+    background-color: #ff00aa;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.design-circle {
+    width: 45vw;
+    height: 45vw;
+    max-width: 400px;
+    max-height: 400px;
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    background-color: rgba(173, 216, 230, 0.8); /* Light Blue with transparency */
+    right: 0;
+    box-shadow: -10px -10px 25px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.intro-text {
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+}
+
+.intro-text h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.intro-text p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #fdfdfd;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
