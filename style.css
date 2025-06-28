@@ -21,6 +21,22 @@ body {
     height:100vh;
 }
 
+.nav-btn {
+    padding: 10px 20px;
+    background-color: #4A00E0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #8E2DE2;
+}
+
 .Top-header-container {
     display: flex;
     flex-wrap: wrap;
