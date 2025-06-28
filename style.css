@@ -33,9 +33,6 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.nav-btn:hover {
-    background-color: #8E2DE2;
-}
 
 .Top-header-container {
     display: flex;
