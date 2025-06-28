@@ -60,18 +60,6 @@ body {
     gap: 15px;
 }
 
-.btn-top a {
-    color: white;
-    background-color: transparent;
-    border: none;
-    width: 100px;
-    font-size: large;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border-radius: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
 
 
 
