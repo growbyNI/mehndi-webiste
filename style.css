@@ -47,7 +47,7 @@ body {
     gap: 15px;
 }
 
-.btn-top button {
+.btn-top a {
     color: white;
     background-color: transparent;
     border: none;
@@ -60,7 +60,7 @@ body {
     margin-top: 10px;
 }
 
-.btn-top button:hover {
+.btn-top a:hover {
     background-color: #ff00aa;
     color: white;
     width: 30%px;
@@ -69,7 +69,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.btn-top button:hover {
+.btn-top a:hover {
     background-color: #ff00aa;
     color: white;
     transform: scale(1.1);
