@@ -238,6 +238,7 @@ body {
 
 /* Float label on focus, hover, or when filled */
 .form-group input:focus+label,
+.form-group input:valid+label,
 .form-group input:hover+label,
 .form-group input:not(:placeholder-shown)+label {
     top: -10px;
