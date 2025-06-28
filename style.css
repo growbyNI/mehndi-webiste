@@ -212,6 +212,17 @@ body {
     margin-bottom: 30px;
 }
 
+.form-group > input, textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 0;
+    transition: 0.3s;
+}
 .form-group input {
     width: 100%;
     padding: 18px 15px 6px;
