@@ -73,14 +73,7 @@ body {
     margin-top: 10px;
 }
 
-.btn-top a:hover {
-    background-color: #ff00aa;
-    color: white;
-    width: 30%px;
-    max-width: 100px;
-    transform: scale(1.1);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
+
 
 .btn-top a:hover {
     background-color: #ff00aa;
